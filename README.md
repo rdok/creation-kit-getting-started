@@ -7,3 +7,4 @@ Go over the basics of getting up and running with the Creation Kit, the editor t
 - [Bethesda_Tutorial_Creation_Kit_Interface](http://www.creationkit.com/Bethesda_Tutorial_Creation_Kit_Interface)
    - [Main_Toolbar](http://www.creationkit.com/Main_Toolbar)
    - [Render_Window](http://www.creationkit.com/Render_Window)
+   - [Object_Window](http://www.creationkit.com/Object_Window)
