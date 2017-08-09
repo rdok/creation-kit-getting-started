@@ -1,5 +1,9 @@
-# creation-kit-getting-started
-Go over the basics of getting up and running with the Creation Kit, the editor to create content for The Elder Scrolls V: Skyrim.
+# skyrim-creation-kit
+
+# Creating new mod
+```
+mklink /J "/path/creation-kit\1. Getting Started" "/path/steamapps\common\Skyrim Special Edition\Data\1. Getting Started"
+```
 
 ## Useful Links
 - [Configuration Settings](http://wiki.step-project.com/Guide:Skyrim_Configuration_Settings)
