@@ -1,8 +1,25 @@
-# skyrim-creation-kit
+# Skyrim Creation Kit
+### Chapters
+#### [1. Getting Started](https://www.creationkit.com/index.php?title=Category:Getting_Started)
+This first chapter goes  over the basics of getting up and running with the Creation Kit:
+- How to install the Creation Kit
+- How to create and save a plugin (main mod data file)
+- How to load a plugin into the game  
 
-# Creating new mod
+#### [2. Bethesda Tutorial Creation Kit Interface ](https://www.creationkit.com/index.php?title=Bethesda_Tutorial_Creation_Kit_Interface)
+
+### Link mod with git repo
+We need to create a hard link to the mod we want to work with. This allows us
+to link the mod we want to work with with this Git repository.
+
+#### Template
 ```
-mklink /J "/path/creation-kit\1. Getting Started" "/path/steamapps\common\Skyrim Special Edition\Data\1. Getting Started"
+mklink /H "D:\Code\fallout-4-creation-kit\{Working Chapter}\{Mod Name}.esp" "D:\SteamLibrary\steamapps\common\Fallout 4\Data\{Mod Name}.esp"
+```
+
+#### Usages
+```
+mklink /H "D:\Code\fallout-4-creation-kit\1. Getting Started\testquest.esp" "D:\SteamLibrary\steamapps\common\Fallout 4\Data\testquest.esp"
 ```
 
 ## Useful Links
